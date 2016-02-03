@@ -1,0 +1,14 @@
+body {
+    background-color:lightblue;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+div {
+    background-color:green;
+}
+
+input{
+	background-color:lightblue;
+	color: green;
+}

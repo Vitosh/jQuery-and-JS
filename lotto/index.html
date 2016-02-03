@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>VitoshAcademy</title>
+		<meta http-equiv="content-type" content = "text/html"; charset=UTF-8"/>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<script src="my_script.js"></script>
+		<link rel="stylesheet" type="text/css" href="my_style.css" media="screen" />
+	<head>
+	<body>
+		<div class="container-fluid">
+			<h1>Lotto Probabilities Calculator</h1><br>
+			<div class="col-*-*">
+				<label>Balls selected</label><br>
+				<input id = "lsmall" type="number" value="6"><br>
+				<label>Balls total</label><br>
+				<input id = "lbig" type = "number" value = "49"><br>
+				<label>Balls on which you are betting</label><br>
+				<input id = "lplay" type = "number" value = "24"><br>
+				<hr>
+				<div>With significant order:</div>
+				<div  id="my_results_order_significant" class="container">Awaiting input ...</div>
+				<div>Without significant order:</div>
+				<div  id="my_results_order_any" class="container">Awaiting input ...</div>
+				<hr>
+				<div>Number of combinations you can make:</div>
+				<div  id="my_combinations" class="container">Awaiting input ...</div>
+				<div>Chances to win</div>
+				<div  id="my_chances" class="container"></div>
+			</div>
+		</div>
+	</body>
+</html>
