@@ -1,0 +1,44 @@
+body {
+    background-color:lightblue;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+div {
+    background-color:green;
+}
+
+input{
+	background-color:lightblue;
+	color: green;
+}
+
+#my_followers, #my_leaders{
+	border-radius: 25px;
+    margin: 15px; 
+	padding: 10px;
+	background-color: lightblue;
+}
+
+#mainDiv{
+    border-radius: 25px;
+    margin: 15px; 
+	padding: 10px;
+}
+
+#clickButton { 
+    border: 2px solid #73AD21;
+}
+
+img{
+    border-radius: 30%;
+	height: 55px;
+	width:55px;
+}
+
+li:nth-child(odd) {
+    background: lightblue;
+}
+
+li:nth-child(even) {
+}
