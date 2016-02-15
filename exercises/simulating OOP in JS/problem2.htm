@@ -1,0 +1,37 @@
+ <script> 
+	var Person = (function () {
+		function Person(firstName, lastName) {
+			this.firstName = firstName;
+			this.lastName = lastName;
+		}
+		return Person;
+	}());
+	
+	Object.defineProperty(Person.prototype, "fullName",{
+		get: function(){
+			return this.firstName + " " + this.lastName;
+		},
+		set: function(value){
+			var fullName = value.split(" ");
+			this.firstName = fullName[0];
+			this.lastName = fullName[1];
+			return this.firstName + " " + this.lastName;
+		}
+	});
+
+	var peter = new Person("Peter", "Jackson");
+	var hr = "<hr>";
+	document.write(peter.fullName);
+	document.write(hr);
+	document.write(peter.firstName);
+	document.write(hr);
+	document.write(peter.lastName);
+	document.write(hr);
+	peter.fullName = "Vitosh Academy";
+	document.write(peter.firstName);
+	document.write(hr);
+	document.write(peter.lastName);
+	document.write(hr);
+	peter.firstName = "Ale";
+	document.write(peter.fullName);
+</script>

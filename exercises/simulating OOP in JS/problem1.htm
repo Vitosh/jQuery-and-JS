@@ -1,0 +1,18 @@
+ <script> 
+	var Person = (function () {
+		function Person(firstName, lastName) {
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.name = firstName + " " + lastName;
+		}
+		return Person;
+	}());
+
+	var peter = new Person("Peter", "Jackson");
+	var hr = "<hr>";
+	document.write(peter.name);
+	document.write(hr);
+	document.write(peter.firstName);
+	document.write(hr);
+	document.write(peter.lastName);
+</script>
