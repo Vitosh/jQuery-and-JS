@@ -47,7 +47,7 @@ simply_print(simple_plan.added_one);
 function simply_print(arr_k){
    document.write("<hr>");
 
-   if (Array.isArray(arr_k) == false) {
+   if (!Array.isArray(arr_k)) {
       document.write(arr_k);
       return;
    }
