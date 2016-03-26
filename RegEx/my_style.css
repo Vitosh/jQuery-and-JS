@@ -1,0 +1,13 @@
+textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+#main {
+    margin: 25px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+}
