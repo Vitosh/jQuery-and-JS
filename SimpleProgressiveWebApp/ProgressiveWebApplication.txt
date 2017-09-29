@@ -1,5 +1,3 @@
-[2,3,4].map((e)=>e+1)
-
 Phases of ServiceWorkers
 1. Registration
 2. Installation
@@ -9,12 +7,8 @@ Phases of ServiceWorkers
 skipWaiting()	- kill existing service workers and activate new Service Workers 	
 clients.claim() - claims all uncontrolled windows
 
-https://github.com/iliaidakiev
-
-https://github.com/IliaIdakiev/hackconf_simple_pwa
 install node.js
 npm install express
 
 https://caniuse.com/
-
 https://developers.google.com/web/tools/lighthouse/
